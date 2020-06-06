@@ -42,7 +42,7 @@ if ENV:
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
- 	DB_URI = os.environ.get('DATABASE_URL')
+    DB_URI = os.environ.get('DATABASE_URL')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
@@ -52,7 +52,7 @@ if ENV:
     BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     API_WEATHER = os.environ.get('API_WEATHER', None)
-	MESSAGE_DUMP = os.environ.get('MESSAGE_DUMP', '-1001373984853')
+    MESSAGE_DUMP = os.environ.get('MESSAGE_DUMP', '-1001373984853')
     OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'ShityBrainOfficial')
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     URL = os.environ.get('URL', "")  # Does not contain token
