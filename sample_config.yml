@@ -1,0 +1,22 @@
+##############################
+# Please edit this line to "not_sample_anymore" to make the bot run
+not_sample_anymore: "Ahhhhhhhhhhh i am not blind so i'll follow what the line above me asked"
+##############################
+bot_token: "Your bot token"
+owner_id: 123456
+owner_username: "ShityBrainOfficial"
+URL: "https://alissabott.herokuapp.com/"
+message_dump: "CHAT ID"
+load: []
+no_load: []
+strict_antispam: False
+workers: 4
+allow_excl: False
+deepfry_token: None
+del_cmds: False
+sw_api: ''
+
+# Permission
+sudo_users: []
+support_users: []
+whitelist_users: []
